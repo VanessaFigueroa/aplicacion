@@ -1,0 +1,276 @@
+/* -- Header --*/
+.navbar {
+	margin-bottom: 0;
+    background: #34495E;
+}
+.jumbotron{
+	background: #0174DF;
+	color: #fff;
+	padding: 20px 0;
+	margin-bottom: 0;
+}
+.miga-de-pan{
+	margin-top: 20px;
+}
+
+.mlp{
+	padding-left: :1800px;
+}
+/*-- Post -- */
+.main{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.post{
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #999;
+}
+.post .post-title a{
+	color: #333;
+}
+.post .thumb{
+	margin-right: 10px;
+	width: 40%;
+}
+.post .thumb img{
+	width: 100%;
+}
+.post .contenedor-botones{
+	width: 100%;
+}
+
+/* -- Media Querie --*/  /*-- par dispositivos moviles --*/
+@media screen and (max-width: 768px){
+	.post .thumb{
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+}
+
+/* -- Formulario --*/
+.formc{
+	background-color: #cef0f3;
+	padding: 1px;
+}
+.formc .cen{
+	text-align: center;
+}
+input[type="submit"]{
+	margin-top: 10px;
+}
+
+.logo{
+	margin-right: 20px;
+	float: left;
+	width: 200px;
+	height: 160px;
+	background: 0;
+	box-shadow: 0px 0px 0px;
+    border-radius: 50%;
+}
+.copy{
+	background: 0;
+	box-shadow: 0px 0px 0px;
+}
+
+
+
+ /* jssor slider bullet navigator skin 01 css */
+        /*
+        .jssorb01 div           (normal)
+        .jssorb01 div:hover     (normal mouseover)
+        .jssorb01 .av           (active)
+        .jssorb01 .av:hover     (active mouseover)
+        .jssorb01 .dn           (mousedown)
+        */
+        .jssorb01 {
+            position: absolute;
+        }
+        .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 15px;
+            height: 15px;
+            filter: alpha(opacity=70);
+            opacity: .7;
+            overflow: hidden;
+            cursor: pointer;
+            border: #000 1px solid;
+			border-radius: 20px;
+        }
+        .jssorb01 div { background-color: gray; }
+        .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+        .jssorb01 .av { background-color: #fff; }
+        .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
+        /* jssor slider arrow navigator skin 05 css */
+        /*
+        .jssora05l                  (normal)
+        .jssora05r                  (normal)
+        .jssora05l:hover            (normal mouseover)
+        .jssora05r:hover            (normal mouseover)
+        .jssora05l.jssora05ldn      (mousedown)
+        .jssora05r.jssora05rdn      (mousedown)
+        */
+        .jssora05l, .jssora05r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            background: url('img/a17.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora05l { background-position: -10px -40px; }
+        .jssora05r { background-position: -70px -40px; }
+        .jssora05l:hover { background-position: -130px -40px; }
+        .jssora05r:hover { background-position: -190px -40px; }
+        .jssora05l.jssora05ldn { background-position: -250px -40px; }
+        .jssora05r.jssora05rdn { background-position: -310px -40px; }
+
+img{
+    padding: 10px;
+	background: #000;
+	box-shadow:#999 5px 5px 10px;
+}
+
+
+.menu-fixed {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* nav horizontal */
+#menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+    float: left;
+}
+#menu ul li {
+    background-color: #666;
+}
+#menu ul li a {
+    color: #ccc;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 10px 10px 20px;
+}
+#menu ul li a:hover {
+    background: #000;
+    border-left: 10px solid #333;
+    color: #fff;
+}
+@media screen and (min-width:200px) and (max-width:800px) {
+    #menu ul {
+    padding: auto;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    font-size: 11pt;
+    
+    }
+    #menu ul li {
+        background-color: #666;
+        float: left;
+    }
+    #menu ul li a {
+        color: #ccc;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: block;
+        padding: 10px 10px 10px 20px;
+    }
+    #menu ul li a:hover {
+        background: #000;
+        border-left: 10px solid #333;
+        color: #fff;
+    }
+    #registroForm {
+    margin-top: 20px;
+    margin-left: 10px;
+    }
+
+}
+
+
+
+
+/* contenedor flotante*/
+#registroForm {
+    margin-top: 50px;
+    margin-left: 320px;
+}
+
+/* login */
+.wrapper {    
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.form-signin {
+  max-width: 420px;
+  padding: 30px 38px 66px;
+  margin: 0 auto;
+  background-color: #AF7AC5  ;
+  border: 3px dotted rgba(0,0,0,0.1);  
+  }
+
+.form-signin-heading {
+  text-align:center;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+}
+
+input[type="text"] {
+  margin-bottom: 0px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+input[type="search"] {
+    position: relative;
+    font-size: 15px;
+    height: 7;
+    padding: 5px;
+}
+
+input[type="password"] {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.colorgraph {
+  height: 7px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+/* Registro */
+.form-regis {
+  max-width: 700px;
+  padding: 30px 38px 66px;
+  margin: 0 auto;
+  background-color: #AF7AC5  ;
+  border: 3px dotted rgba(0,0,0,0.1);
+  border-radius: 15px 15px 15px 15px;   
+  }
